@@ -12,8 +12,8 @@ module.exports = class WatsonSTT{
 
 		//username and password generated on ibm bluemix
 		var speechToText = new SpeechToText({
-			username: 'e1661e0a-53eb-4e43-9125-2f76892fbafd',
-			password: 'JARTn4grl8el'
+			username: '<your username>',
+			password: '<your password>'
 		});
 		
 		this.micInstance = mic({
