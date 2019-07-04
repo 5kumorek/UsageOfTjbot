@@ -15,7 +15,7 @@ import http.client, urllib.parse, json
 from xml.etree import ElementTree
 
 def getAccessToken():
-	apiKey = "5851b5e0a8154738a0f96492cc17adb6"
+	apiKey = "<enter your api key>"
 
 	params = ""
 	headers = {"Ocp-Apim-Subscription-Key": apiKey}
